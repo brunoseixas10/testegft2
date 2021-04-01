@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Trades2.Entities.Interfaces;
+
+namespace Trades2.Entities
+{
+    public class Trade : ITrade
+    {       
+        public double Value { get; set; }
+
+        public string ClientSector { get; set; } 
+    }
+}
